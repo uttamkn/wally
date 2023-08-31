@@ -1,5 +1,5 @@
 #!/bin/sh
-#CREATE AN ALIAS NAMED wally for this file in .bashrc 
+#CREATE AN ALIAS NAMED wally for this file in .bashrc (check README.md)
 
 xwallpaper --zoom ~/Pictures/$1
 wal -i ~/Pictures/$1
