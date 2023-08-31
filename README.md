@@ -24,6 +24,8 @@ install the following:
     alias wally ='bash ~/.config/Wally/wallpaper-change.sh' 
     
     wal -i ~/Pictures/$(~/.config/Wally/save_wallpap.sh)
+
+    clear
 ..
     (NOTE: Here ~/Pictures is the path to the directory where you save your wallpapers)
 
