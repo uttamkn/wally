@@ -1,0 +1,4 @@
+echo wallpapername.jpg 
+
+#####DO NOT CHANGE ANYTHING IN THIS FILE
+#####THIS FILE ACTS AS A VARIABLE FOR THE IMAGE
