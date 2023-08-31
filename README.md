@@ -35,15 +35,17 @@ install the following:
 
     alias wally ='bash ~/.config/Wally/wallpaper-change.sh' 
     
-    wal -i ~/Pictures/$(~/.config/Wally/save_wallpap.sh)    
+    wal -i ~/Pictures/$(~/.config/Wally/save_wallpap.sh)
+..
     (NOTE: Here ~/Pictures is the path to the directory where you save your wallpapers)
 
 || STEP 5: Add the following to ~/.config/awesome/rc.lua:
 
     awful.spawn.with_shell("bash ~/.config/Wally/toautorun.sh")
+ ..   
     (NOTE: For any other window managers, write the command to autorun  ~/.config/Wally/toautorun.sh)
 
-
+ ..
                               || YOU HAVE SUCCESSFULLY INSTALLED WALLY ||
 
 
