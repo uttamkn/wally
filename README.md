@@ -16,9 +16,9 @@
 
 install the following:
 
-xwallpaper 
-|| python-pywal ||
-neofetch
+|| xwallpaper 
+|| python-pywal 
+|| neofetch
 
 
 ############################################# INSTALLING WALLY  ###############################################
