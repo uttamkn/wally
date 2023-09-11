@@ -1,6 +1,6 @@
 # Wally-theWallpaperChanger
 
-############################################# DEPENDENCIES ####################################################
+############################################# DEPENDENCIES 
 
 install the following:
 
@@ -9,7 +9,7 @@ install the following:
 || neofetch
 
 
-############################################# INSTALLING WALLY  ################################################
+############################################# INSTALLING WALLY 
 
 || STEP 1: Clone this repository to your local machine.  
 
@@ -39,7 +39,7 @@ install the following:
                               || YOU HAVE SUCCESSFULLY INSTALLED WALLY ||
 
 
-############################################# HOW TO USE? ######################################################
+############################################# HOW TO USE? 
 
 wally wallpapername.jpg
 
