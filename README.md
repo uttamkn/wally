@@ -1,4 +1,4 @@
-# Wally-theWallpaperChanger
+# Wally - theWallpaperChanger
 
 ## Dependencies 
 
