@@ -1,49 +1,51 @@
-# Wally-theWallpaperChanger
+# Wally - theWallpaperChanger
 
-############################################# DEPENDENCIES 
+## Dependencies 
 
-install the following:
-
-|| xwallpaper 
-|| python-pywal 
-|| neofetch
+- xwallpaper 
+- python-pywal 
+- neofetch
 
 
-############################################# INSTALLING WALLY 
+## Installation 
 
-|| STEP 1: Clone this repository to your local machine.  
+1. Clone this repository to your local machine.
+```bash
+git clone https://github.com/uttamkn/Wally.git
+```
 
-|| STEP 2: Navigate to this cloned repository and enter the following:
+2. Navigate to this cloned repository and run the following commands to setup files in the wally config directory.
+```bash
+chmod +x ./install_wally.sh
+./install_wally.sh
+```
 
-    chmod +x ./install_wally.sh
+3. Add the following at the end of your `.bashrc` file that is located in the home (`~/`) directory: 
+```bash
+alias wally ='bash ~/.config/Wally/wallpaper-change.sh'     
+wal -i ~/<your_wallpaper_directory>/$(~/.config/Wally/save_wallpap.sh)
+clear
+```
 
-|| STEP 3: Now run the script to install Wally (./install_wally.sh)    !!In the same directory!!
+5. Add the following to ~/.config/awesome/rc.lua:
+```
+awful.spawn.with_shell("bash ~/.config/Wally/toautorun.sh")
+```
+ 
+ *Note: For any other window managers/desktop environments, make it such that `~/.config/Wally/toautorun.sh` runs whenever the terminal is launched.*
 
-|| STEP 4: Add the following at the end of your .bashrc file that is located in the home directory: 
+ You have successfully installed Wally!
 
-    alias wally ='bash ~/.config/Wally/wallpaper-change.sh' 
-    
-    wal -i ~/Pictures/$(~/.config/Wally/save_wallpap.sh)
+## Usage 
 
-    clear
-..
-    (NOTE: Here ~/Pictures is the path to the directory where you save your wallpapers)
+In your terminal, run:
+```bash
+wally <wallpapername>.jpg
+```
 
-|| STEP 5: Add the following to ~/.config/awesome/rc.lua:
+## Configuration
 
-    awful.spawn.with_shell("bash ~/.config/Wally/toautorun.sh")
- ..   
-    (NOTE: For any other window managers, write the command to autorun  ~/.config/Wally/toautorun.sh)
-
- ..
-                              || YOU HAVE SUCCESSFULLY INSTALLED WALLY ||
-
-
-############################################# HOW TO USE? 
-
-wally wallpapername.jpg
-
-NOTE: You can configure your scripts by modifying the corresponding configuration file. You can find that in the following directory:  ~/.config/Wally/
+You can configure your scripts by modifying the corresponding configuration file. You can find that in `~/.config/Wally/` (created by `./install_wally.sh`).
    
 
 
